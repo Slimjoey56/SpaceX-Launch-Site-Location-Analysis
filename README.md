@@ -1,35 +1,56 @@
-# SpaceX-Launch-Site-Location-Analysis
-Interactive geospatial analysis of SpaceX launch sites using Folium and Python. This project visualizes launch locations, mission outcomes, and nearby infrastructure such as coastlines, highways, railways, and cities while calculating distances to support launch site analysis and feature engineering for data science.
+# SpaceX Launch Site Location Analysis
 
-# SpaceX Launch Site Location Analysis with Folium
+An interactive geospatial analysis of SpaceX launch sites using Python, Folium, and Geopy.
 
-## Overview
+This notebook is part of the IBM Data Science Professional Certificate capstone learning pathway.
 
-This project is part of the IBM Data Science Professional Certificate Capstone. It uses Python and Folium to create interactive maps of SpaceX launch sites and analyze geographical features surrounding each location.
+## Objective
 
-The notebook visualizes launch sites, mission outcomes, and nearby landmarks while calculating distances to cities, coastlines, railways, and highways to better understand factors that may influence launch success.
+Explore the geographical context of launch sites and examine distances to nearby features such as coastlines, roads, railways, and cities.
 
----
+## Analysis
 
-## Objectives
+- Plot launch sites on an interactive map.
+- Display markers for successful and unsuccessful landing outcomes.
+- Explore nearby infrastructure and geographic features.
+- Calculate and visualise distances between selected locations.
 
-- Display all SpaceX launch sites on an interactive map
-- Visualize successful and failed launches
-- Calculate distances from launch sites to nearby geographical features
-- Draw markers and connecting lines between launch sites and nearby landmarks
-- Perform basic geospatial analysis using Folium
-
----
-
-## Technologies Used
+## Tools
 
 - Python
-- Jupyter Notebook
-- Pandas
-- NumPy
+- Pandas and NumPy
 - Folium
 - Geopy
+- Jupyter Notebook
 
----
+## Repository Contents
 
-## Project Structure
+```text
+.
+├── lab-jupyter-launch-site-location-v2 (1).ipynb
+└── README.md
+```
+
+## Running the Notebook
+
+Install the imported libraries in your Python environment and launch Jupyter:
+
+```bash
+jupyter notebook
+```
+
+Open `lab-jupyter-launch-site-location-v2 (1).ipynb` and execute its cells in order.
+
+## Interpretation
+
+Distances and nearby features help describe launch-site geography. Their presence alone does not establish that a geographic factor causes landing success or failure.
+
+## Related Work
+
+- [SpaceX EDA](https://github.com/Slimjoey56/spacex_launch_data_eda)
+- [SpaceX Machine Learning Prediction](https://github.com/Slimjoey56/SpaceX-Machine-Learning-Prediction-Part-5-v1)
+
+## Author
+
+Jehosaphat Brobbey Impiani  
+[GitHub](https://github.com/Slimjoey56)
